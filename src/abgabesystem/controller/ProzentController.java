@@ -28,7 +28,6 @@ public class ProzentController implements ActionListener {
    * Erzeugt ein neues Fenster in dem die Anzeige-Oberfläche eingeblendet wird
    */
   public void erzeugeFenster() {
-    System.out.println(anzeige.istSichtbar());
     if(!anzeige.istSichtbar()) {
       gf = new GenericFrame("Abgaben in Prozent", anzeige);
       gf.setLocation(10, 10);
